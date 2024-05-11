@@ -1,0 +1,11 @@
+spring:
+   datasource:
+      username: project_tracking
+      password: project_tracking
+      url: jdbc:mysql://localhost:3306/project_tracking
+      
+   jpa: 
+      hibernate: 
+         ddl-auto: update
+      show_sql: true
+      
